@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:util="http://www.springframework.org/schema/util" xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd"> <!-- bean definitions here -->
+
+<bean id = "add1" class= "com.springbeanxml.pojoclass.Address">
+<property name="line1" value="BTM"/>
+<property name="line2" value="BLR"/>
+
+
+</bean>
+
+<bean id="emp1" class="com.springbeanxml.pojoclass.Employee">
+<property name="name" value="daksh"/>
+<property name="id" value="tcs123"/>
+<property name="address" ref="add1"/>
+
+</bean>
+
+</beans>
