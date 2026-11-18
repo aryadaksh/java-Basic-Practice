@@ -1,0 +1,4 @@
+2026-11-17 15:30:36 [main] INFO  com.springdi.mgmt.EmployeeMgmt - This is EmployeeMgmt display method Start
+2026-11-17 15:30:36 [main] INFO  com.springdi.bean.Employee - This is Employee class display() method Started
+2026-11-17 15:30:36 [main] INFO  com.springdi.bean.Employee - This is Employee class display() method Ended
+2026-11-17 15:30:36 [main] INFO  com.springdi.mgmt.EmployeeMgmt - This is EmployeeMgmt display method End

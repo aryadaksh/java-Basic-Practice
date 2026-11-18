@@ -1,0 +1,5 @@
+2026-11-17 15:33:06 [main] WARN  org.springframework.context.annotation.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'employeeMgmt': Unsatisfied dependency expressed through field 'employee': No qualifying bean of type 'com.springdi.bean.Employee' available: expected single matching bean but found 2: emp1,emp2
+2026-11-17 15:33:33 [main] INFO  com.springdi.mgmt.EmployeeMgmt - This is EmployeeMgmt display method Start
+2026-11-17 15:33:33 [main] INFO  com.springdi.bean.Employee - This is Employee class display() method Started
+2026-11-17 15:33:33 [main] INFO  com.springdi.bean.Employee - This is Employee class display() method Ended
+2026-11-17 15:33:33 [main] INFO  com.springdi.mgmt.EmployeeMgmt - This is EmployeeMgmt display method End
